@@ -49,7 +49,7 @@ const Hearder = () => {
                 </li>
                 <li className="nav_hvoer">
                   <a
-                    href="#teamsection"
+                    href="#impactsection"
                     className="ff_balsamiq px-lg-1 fs_sm fw-bold clr_white"
                   >
                     Impact
@@ -65,23 +65,35 @@ const Hearder = () => {
                 </li>
                 <li className="nav_hvoer">
                   <a
-                    href="#partnerssection"
+                    href="#faqsection"
                     className="ff_balsamiq px-lg-1 fs_sm fw-bold clr_white"
                   >
                     FAQ
                   </a>
                 </li>
               </ul>
-              <div className="d-flex gap-lg-3 gap-2 mt-3 d-lg-none">
-                <img src={discord} alt="discord" width={30} height={30} />
-                <img src={twitter} alt="twitter" width={30} height={30} />
-                <img src={instagram} alt="instagram" width={30} height={30} />
+              <div className="d-flex gap-lg-3 gap-2 mt-3 d-lg-none nav_hvoer">
+                <a href="https://discord.com/" target="blank">
+                  <img src={discord} alt="discord" width={30} height={30} />
+                </a>
+                <a href="https://twitter.com/?lang=en" target="blank">
+                  <img src={twitter} alt="twitter" width={30} height={30} />
+                </a>
+                <a href="https://www.instagram.com/" target="blank">
+                  <img src={instagram} alt="instagram" width={30} height={30} />
+                </a>
               </div>
             </div>
-            <div className="d-lg-flex gap-3 d-none">
-              <img src={discord} alt="discord" width={30} height={30} />
-              <img src={twitter} alt="twitter" width={30} height={30} />
-              <img src={instagram} alt="instagram" width={30} height={30} />
+            <div className="d-lg-flex gap-3 d-none nav_hvoer">
+              <a href="https://discord.com/" target="blank">
+                <img src={discord} alt="discord" width={30} height={30} />
+              </a>
+              <a href="https://twitter.com/?lang=en" target="blank">
+                <img src={twitter} alt="twitter" width={30} height={30} />
+              </a>
+              <a href="https://www.instagram.com/" target="blank">
+                <img src={instagram} alt="instagram" width={30} height={30} />
+              </a>
             </div>
           </div>
         </Container>

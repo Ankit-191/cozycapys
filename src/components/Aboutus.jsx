@@ -1,17 +1,30 @@
 import React from "react";
 import bottom_tree_aboutus from "../assets/img/webp/abouttree.webp";
 import aboutlayerbottom from "../assets/img/webp/aboutbottom.webp";
+import sleep from "../assets/img/webp/aboutusSleeping.webp";
 const Aboutus = () => {
   return (
     <>
       <section className="bg_pink position-relative py-5">
         <div className="position-absolute bottom_-20 z-1 w-100">
-          <img src={aboutlayerbottom} alt="" className="w-100 about_bottom" height={250} />
+          <img
+            src={aboutlayerbottom}
+            alt=""
+            className="w-100 about_bottom"
+            height={250}
+          />
+        </div>
+        <div className="position-absolute about_sleep">
+          <img src={sleep} alt="sleep" className="w-100" />
         </div>
         <div className="aboutus_section_bg pb-5">
           <div className="py-md-5 mt-5">
-            <div className="aboutus_bg_white position-relative py-lg-5 py-4">
-              <h2 className="ff_cherry text-center color_pink aboutus_text_sahdow fw-normal fs_7xl pt-lg-4 mb-md-4 mb-3 pe-5 clr_pink">
+            <div className="aboutus_bg_white position-relative z-3 py-lg-5 py-4">
+              <h2
+                className="ff_cherry text-center color_pink aboutus_text_sahdow fw-normal fs_7xl pt-lg-4 mb-md-4 mb-3 pe-5 clr_pink"
+                data-aos="zoom-in"
+                data-aos-duration="800"
+              >
                 About Us
               </h2>
               <div className=" d-flex justify-content-center align-items-center flex-column">

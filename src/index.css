@@ -100,3 +100,47 @@
 .bg_green_100 {
   background-color: var(--clr-green-100);
 }
+@media (max-width: 992px) {
+  :root {
+    --fs-3sm: 31px;
+    --fs-3xl: 43px;
+    --fs-4xl: 45px;
+    --fs-5xl: 55px;
+    --fs-6xl: 65px;
+    --fs-7xl: 75px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 20px;
+    --fs-xxl: 22px;
+    --fs-2xl: 26px;
+    --fs-3sm: 28px;
+    --fs-3xl: 43px;
+    --fs-4xl: 40px;
+    --fs-5xl: 50px;
+    --fs-6xl: 60px;
+    --fs-7xl: 62px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 13px;
+    --fs-md: 14px;
+    --fs-lg: 16px;
+    --fs-xl: 16px;
+    --fs-xxl: 18px;
+    --fs-2xl: 24px;
+    --fs-3sm: 26px;
+    --fs-3xl: 27px;
+    --fs-4xl: 30px;
+    --fs-5xl: 35px;
+    --fs-6xl: 40px;
+    --fs-7xl: 48px;
+  }
+}

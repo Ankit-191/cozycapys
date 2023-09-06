@@ -7,32 +7,32 @@ const Footer = () => {
       <section className="bg_orange_100 position-relative bg_side_img">
         <div className="bg_img pt-5">
           <div className="pt-4">
-            <div className="ff_Chewy fw-normal fs_3xl gap-1 lh-1 d-flex align-items-end justify-content-center pb-2 pt-5 mt-5">
+            <div className="ff_Chewy fw-normal fs_3xl gap-1 lh-1 d-flex align-items-end justify-content-center pb-2 pt-md-5 mt-md-5">
               <img src={logo} alt="logo" width={58} height={83} />
               <span className="cozy_shadow clr_orange pb-1">Cozy</span>
               <span className="capys_shadow clr_white pb-1">Capys</span>
             </div>
           </div>
-          <ul className="ps-0 mb-0 d-flex justify-content-center gap-lg-4 gap-3 mt-5 pt-5">
-            <li className="nav_hvoer">
+          <ul className="ps-0 mb-0 d-flex justify-content-center gap-lg-4 gap-3 mt-md-5 pt-5">
+            <li className="footer_hover">
               <span className="ff_balsamiq px-lg-1 fs_sm fw-normal clr_black_100">
                 Home
               </span>
             </li>
-            <li className="nav_hvoer">
+            <li className="footer_hover">
               <span className="ff_balsamiq px-lg-1 fs_sm fw-normal clr_black_100">
                 About
               </span>
             </li>
-            <li className="nav_hvoer">
+            <li className="footer_hover">
               <a
-                href="#teamsection"
+                href="#impactsection"
                 className="ff_balsamiq px-lg-1 fs_sm fw-normal clr_black_100"
               >
                 Impact
               </a>
             </li>
-            <li className="nav_hvoer">
+            <li className="footer_hover">
               <a
                 href="#roadmapsection"
                 className="ff_balsamiq px-lg-1 fs_sm fw-normal clr_black_100"
@@ -40,16 +40,16 @@ const Footer = () => {
                 Roadmap
               </a>
             </li>
-            <li className="nav_hvoer">
+            <li className="footer_hover">
               <a
-                href="#partnerssection"
+                href="#faqsection"
                 className="ff_balsamiq px-lg-1 fs_sm fw-normal clr_black_100"
               >
                 FAQ
               </a>
             </li>
           </ul>
-          <div className="d-flex gap-4 justify-content-center mt-4 mb-5">
+          <div className="d-flex gap-4 justify-content-center mt-4 mb-5 footer_hover">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="37"

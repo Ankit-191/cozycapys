@@ -6,11 +6,14 @@ import cloud from "../assets/img/webp/impact_left_cloud.webp";
 const Impact = () => {
   return (
     <>
-      <section className="bg_impact_color position-relative bg_impact">
+      <section
+        className="bg_impact_color position-relative bg_impact"
+        id="impactsection"
+      >
         <div className="py-5">
-          <Container className="py-5">
-            <Row className="justify-content-lg-between justify-content-center align-items-center py-5 mt-5 position-relative z-1">
-              <Col lg={6} md={8}>
+          <Container className="py-lg-5">
+            <Row className="justify-content-lg-between justify-content-center align-items-center py-5 mt-lg-5 position-relative z-1">
+              <Col lg={6} md={8} data-aos="fade-right" data-aos-duration="1000">
                 <h2 className="ff_cherry text_shadow_impact text-lg-start text-center fw-normal fs_7xl text-white mb-0">
                   Impact
                 </h2>
@@ -27,7 +30,7 @@ const Impact = () => {
                   conservation and environmental preservation.
                 </p>
               </Col>
-              <Col lg={5} md={8}>
+              <Col lg={5} md={8} data-aos="fade-right" data-aos-duration="1000">
                 <div className="border_img mt-lg-0 mt-5">
                   <img
                     src={impact_col_img}
