@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&family=Cherry+Cream+Soda&family=Chewy&display=swap");
+.ff_balsamiq {
+  font-family: "Balsamiq Sans";
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ff_cherry {
+  font-family: "Cherry Bomb One";
+}
+.ff_Chewy {
+  font-family: "Chewy";
+}
+.ff_cherry_cream {
+  font-family: "Cherry Cream Soda";
+}
+:root {
+  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 20px;
+  --fs-xl: 22px;
+  --fs-xxl: 24px;
+  --fs-2xl: 28px;
+  --fs-3sm: 31px;
+  --fs-3xl: 43px;
+  --fs-4xl: 50px;
+  --fs-5xl: 60px;
+  --fs-6xl: 69px;
+  --fs-7xl: 80px;
+  --clr-white: white;
+  --clr-green: #5ba72b;
+  --clr-green-100: #9acc44;
+  --clr-orange: #ff9300;
+  --clr-orange-100: #fcbe69;
+  --clr-black: black;
+  --clr-black-100: #0d0d0d;
+  --clr-pink: #eec4dc;
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_3sm {
+  font-size: var(--fs-3sm);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_5xl {
+  font-size: var(--fs-5xl);
+}
+.fs_6xl {
+  font-size: var(--fs-6xl);
+}
+.fs_7xl {
+  font-size: var(--fs-7xl);
+}
+.clr_orange {
+  color: var(--clr-orange);
+}
+.clr_green {
+  color: var(--clr-green);
+}
+.clr_white {
+  color: var(--clr-white);
+}
+.clr_black {
+  color: var(--clr-black);
+}
+.clr_black_100 {
+  color: var(--clr-black-100);
+}
+.clr_pink {
+  color: var(--clr-pink);
+}
+.bg_pink {
+  background-color: var(--clr-pink);
+}
+.bg_orange_100 {
+  background-color: var(--clr-orange-100);
+}
+.bg_green_100 {
+  background-color: var(--clr-green-100);
 }
