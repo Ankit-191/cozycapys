@@ -19,7 +19,7 @@ const Aboutus = () => {
         </div>
         <div className="aboutus_section_bg pb-5">
           <div className="py-md-5 mt-5">
-            <div className="aboutus_bg_white position-relative z-3 py-lg-5 py-4">
+            <div className="aboutus_bg_white position-relative py-lg-5 py-4">
               <h2
                 className="ff_cherry text-center color_pink aboutus_text_sahdow fw-normal fs_7xl pt-lg-4 mb-md-4 mb-3 pe-5 clr_pink"
                 data-aos="zoom-in"
